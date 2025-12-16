@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+  .position-md-absolute {
+    position: absolute;
+    top: 69px;
+    left: 0;
+    right: 0;
+    
+  }
+  nav ul li a.active::after {
+  width: 0%;
+}
+  .navbar-collapse {
+    background: white !important;
+  }
+  .navbar-collapse a {
+    color: black !important;
+    font-weight: 300;
+  }
+}
