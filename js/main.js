@@ -3,6 +3,11 @@ let currentIndex = 0;
 let track;
 let cards;
 
+
+  /* Preloader */
+  window.onload = () => {
+    document.getElementById("preloader").style.display = "none";
+  };
 /* ================= DOM Loaded ================= */
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -77,6 +82,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+
+
+
+
+
 /* ================= Testimonials Slider ================= */
 function updateSlider() {
   track.style.transform = `translateX(-${currentIndex * 100}%)`;
@@ -138,3 +148,5 @@ function applyMode(mode) {
     logo.src = 'images/4logolightmood.png';
   }
 }
+
+
